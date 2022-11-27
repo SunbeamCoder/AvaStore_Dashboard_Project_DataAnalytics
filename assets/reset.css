@@ -1,0 +1,101 @@
+/*
+CSS Tham Khảo
+https://codepen.io/chriddyp/pen/bWLwgP.css
+background-color: rgb(41, 44, 46) 
+*/
+
+.banner {
+    height: 75px;
+    margin: 0px -10px 10px;
+    background-color: rgb(120, 43, 174);
+    border-radius: 2px;
+}
+
+.banner h2{
+    color: white;
+    padding-top: 15px;
+    margin-left: 2%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.banner Img{
+    position: relative;
+    float: left;
+    right: -20px;
+    height: 65px;
+}
+
+.column,
+.columns {
+    width: 30%;
+    box-sizing: border-box;
+}
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  }
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+.container {
+    width: 80%; }
+.column,
+.columns {
+    margin-left: 4%; }
+.column:first-child,
+.columns:first-child {
+    margin-left: 0; }
+}
+
+.six.columns{
+    width: 48%;            
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    box-sizing: border-box; 
+    padding-right: 30%;
+}
+
+
+.rightcontainer {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    padding-right: 10%;
+    box-sizing: border-box;
+    float : right;
+
+}
+
+.rightdropdown {
+    position: relative;
+    width: 20%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    float : right;
+}
+
+.top5 {
+    width: 100%;
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    
+}
+.Select-menu-outer {
+    background-color: rgb(48,17,94);
+    color: white;
+}
+
+.Select-value-label {
+    color: white
+}
+
+
